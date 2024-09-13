@@ -7,7 +7,7 @@ namespace Repositories
 {
     public class CarRepository
     {
-        string srConn = @"Data Source=127.0.0.1;Initial Catalog=Aula2_Prof_Andre;User Id=SA;Password=SqlServer2019!;TrustServerCertificate=True"; //Funcionou ^^
+        string srConn = "string de conexão";
         SqlConnection conn;
 
         public CarRepository()
